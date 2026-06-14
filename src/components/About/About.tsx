@@ -6,9 +6,9 @@ export function About() {
           <div className="flex items-center">
             <div className="space-y-6">
               <img
-                src="/profile.jpg"
+                src="./profile.jpg"
                 alt="Nolan Hofstee"
-                className="w-48 h-48 rounded-2xl object-cover border-2 border-green-500/30 mx-auto md:mx-0"
+                className="w-48 h-48 rounded-2xl object-cover border-2 border-green-500/30 mx-auto"
               />
               <div className="space-y-4">
                 <p className="text-gray-300 leading-relaxed">
