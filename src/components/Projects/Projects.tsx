@@ -22,14 +22,6 @@ const projects: Project[] = [
     githubUrl: "https://github.com/nhofs",
   },
   {
-    title: "Personal Site",
-    description:
-      "This portfolio site built with Vite, React, and TypeScript. Features a cursor-reveal matrix rain animation with a pluggable pattern system.",
-    technologies: ["React", "TypeScript", "Vite", "Tailwind CSS"],
-    githubUrl: "https://github.com/nhofs",
-    liveUrl: "https://hofstee.casa",
-  },
-  {
     title: "Turn-Based Combat",
     description:
       "A 2D turn-based game with animated attack sequences — characters walk up to targets, strike, and return to position. Built in Godot with procedural enemy spawning.",
