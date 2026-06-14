@@ -22,16 +22,16 @@ export function Hero() {
         <p className="text-2xl md:text-4xl text-gray-400 mb-16 font-light tracking-wide">
           Software Engineer
         </p>
-        <div className="flex flex-col sm:flex-row gap-6 justify-center items-center">
+        <div className="flex flex-col sm:flex-row gap-8 justify-center items-center">
           <a
             href="#projects"
-            className="px-12 py-5 bg-green-500/15 border border-green-500/40 rounded-xl text-green-400 text-xl font-medium hover:bg-green-500/25 hover:border-green-500/60 hover:shadow-[0_0_30px_rgba(0,255,65,0.15)] transition-all duration-300"
+            className="px-16 py-6 bg-green-500/15 border border-green-500/40 rounded-2xl text-green-400 text-2xl font-semibold hover:bg-green-500/25 hover:border-green-500/60 hover:shadow-[0_0_40px_rgba(0,255,65,0.2)] transition-all duration-300"
           >
             View Projects
           </a>
           <a
             href="#contact"
-            className="px-12 py-5 border border-gray-600 rounded-xl text-gray-300 text-xl font-medium hover:border-gray-400 hover:text-white hover:shadow-[0_0_30px_rgba(255,255,255,0.05)] transition-all duration-300"
+            className="px-16 py-6 border border-gray-600 rounded-2xl text-gray-300 text-2xl font-semibold hover:border-gray-400 hover:text-white hover:shadow-[0_0_40px_rgba(255,255,255,0.08)] transition-all duration-300"
           >
             Get in Touch
           </a>

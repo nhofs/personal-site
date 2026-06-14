@@ -20,7 +20,7 @@ export function About() {
           </div>
           <div className="space-y-4">
             <h3 className="text-xl font-semibold text-white">Technologies</h3>
-            <div className="flex flex-wrap gap-2">
+            <div className="flex flex-wrap gap-3">
               {[
                 "React",
                 "TypeScript",
@@ -34,7 +34,7 @@ export function About() {
               ].map((tech) => (
                 <span
                   key={tech}
-                  className="px-3 py-1 bg-green-500/10 border border-green-500/30 rounded-full text-sm text-green-400"
+                  className="px-5 py-2.5 bg-green-500/10 border border-green-500/30 rounded-full text-base text-green-400 font-medium"
                 >
                   {tech}
                 </span>
