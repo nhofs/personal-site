@@ -49,8 +49,12 @@ export function MatrixRain({
   const drawRevealMask = useCallback(
     (context: CanvasRenderingContext2D, width: number, height: number) => {
       const currentTime = Date.now();
-      
-      context.clearRect(0, 0, width, height);
+
+      context.globalCompositeOperation = "source-over";
+      context.fillStyle = "#0a0a0a";
+      context.fillRect(0, 0, width, height);
+
+      context.globalCompositeOperation = "destination-out";
 
       trailPointsRef.current = trailPointsRef.current.filter((point) => {
         const elapsed = currentTime - point.timestamp;
@@ -60,7 +64,6 @@ export function MatrixRain({
       trailPointsRef.current.forEach((point) => {
         const elapsed = currentTime - point.timestamp;
         const lifeRatio = 1 - elapsed / trailDuration;
-        const alpha = lifeRatio * 0.8;
         const currentRadius = revealRadius * (0.5 + lifeRatio * 0.5);
 
         const gradient = context.createRadialGradient(
@@ -71,15 +74,17 @@ export function MatrixRain({
           point.y,
           currentRadius
         );
-        gradient.addColorStop(0, `rgba(0, 255, 65, ${alpha})`);
-        gradient.addColorStop(0.5, `rgba(0, 255, 65, ${alpha * 0.5})`);
-        gradient.addColorStop(1, "rgba(0, 255, 65, 0)");
+        gradient.addColorStop(0, `rgba(0, 0, 0, ${lifeRatio})`);
+        gradient.addColorStop(0.7, `rgba(0, 0, 0, ${lifeRatio * 0.4})`);
+        gradient.addColorStop(1, "rgba(0, 0, 0, 0)");
 
         context.beginPath();
         context.arc(point.x, point.y, currentRadius, 0, Math.PI * 2);
         context.fillStyle = gradient;
         context.fill();
       });
+
+      context.globalCompositeOperation = "source-over";
     },
     [trailDuration, revealRadius]
   );
