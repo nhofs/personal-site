@@ -26,14 +26,14 @@ export function Hero() {
           <div className="flex flex-col sm:flex-row gap-6 justify-center items-center">
             <a
               href="#projects"
-              style={{ padding: "28px 56px" }}
+              style={{ padding: "28px 56px", minWidth: "260px" }}
               className="text-center bg-green-500/15 border-2 border-green-500/40 rounded-2xl text-green-400 text-xl font-semibold hover:bg-green-500/25 hover:border-green-500/60 hover:shadow-[0_0_40px_rgba(0,255,65,0.2)] transition-all duration-300"
             >
               View Projects
             </a>
             <a
               href="#about"
-              style={{ padding: "28px 56px" }}
+              style={{ padding: "28px 56px", minWidth: "260px" }}
               className="text-center bg-green-500/15 border-2 border-green-500/40 rounded-2xl text-green-400 text-xl font-semibold hover:bg-green-500/25 hover:border-green-500/60 hover:shadow-[0_0_40px_rgba(0,255,65,0.2)] transition-all duration-300"
             >
               About Me
