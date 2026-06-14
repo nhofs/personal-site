@@ -51,7 +51,10 @@ export function MatrixRain({
       const currentTime = Date.now();
 
       context.globalCompositeOperation = "source-over";
-      context.fillStyle = "#1a1a1a";
+      const gradient = context.createLinearGradient(0, 0, 0, height);
+      gradient.addColorStop(0, "#0f1729");
+      gradient.addColorStop(1, "#000000");
+      context.fillStyle = gradient;
       context.fillRect(0, 0, width, height);
 
       context.globalCompositeOperation = "destination-out";
