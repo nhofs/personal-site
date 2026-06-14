@@ -2,7 +2,6 @@ export function About() {
   return (
     <section id="about" className="section-container bg-gray-900/50">
       <div className="max-w-4xl mx-auto text-center">
-        <h2 className="text-3xl md:text-4xl font-bold mb-8 text-white">About Me</h2>
         <div className="grid md:grid-cols-2 gap-8 text-left">
           <div className="space-y-4">
             <p className="text-gray-300 leading-relaxed">
@@ -19,7 +18,7 @@ export function About() {
             </p>
           </div>
           <div className="space-y-4">
-            <h3 className="text-xl font-semibold text-white">Technologies</h3>
+            <h3 className="text-xl font-semibold text-white text-center">Technologies</h3>
             <div className="grid grid-cols-2 gap-4">
               {[
                 "React",
