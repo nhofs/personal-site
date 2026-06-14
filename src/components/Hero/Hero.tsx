@@ -6,7 +6,7 @@ export function Hero() {
   const [pattern, setPattern] = useState<AnimationPattern | null>(null);
 
   useEffect(() => {
-    import("./MatrixRain/patterns/matrix").then((module) => {
+    import("./MatrixRain/patterns/topo").then((module) => {
       setPattern(module.default);
     });
   }, []);
