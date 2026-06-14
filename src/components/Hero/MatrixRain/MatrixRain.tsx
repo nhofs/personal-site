@@ -51,7 +51,7 @@ export function MatrixRain({
       const currentTime = Date.now();
 
       context.globalCompositeOperation = "source-over";
-      context.fillStyle = "#0a0a0a";
+      context.fillStyle = "#1a1a1a";
       context.fillRect(0, 0, width, height);
 
       context.globalCompositeOperation = "destination-out";

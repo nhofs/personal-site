@@ -16,22 +16,22 @@ export function Hero() {
       {pattern && <MatrixRain pattern={pattern} />}
       
       <div className="relative z-10 text-center px-4">
-        <h1 className="text-5xl md:text-7xl font-bold mb-6 text-white">
+        <h1 className="text-6xl md:text-8xl lg:text-9xl font-bold mb-4 text-white tracking-tight drop-shadow-[0_0_40px_rgba(255,255,255,0.1)]">
           Nolan Hofstee
         </h1>
-        <p className="text-xl md:text-2xl text-gray-300 mb-8 max-w-2xl mx-auto">
+        <p className="text-2xl md:text-3xl text-gray-400 mb-12 max-w-2xl mx-auto font-light tracking-wide">
           Software Engineer
         </p>
-        <div className="flex gap-4 justify-center">
+        <div className="flex gap-6 justify-center">
           <a
             href="#projects"
-            className="px-8 py-3 bg-green-500/20 border border-green-500/50 rounded-lg text-green-400 hover:bg-green-500/30 transition-colors"
+            className="px-10 py-4 bg-green-500/15 border border-green-500/40 rounded-xl text-green-400 text-lg hover:bg-green-500/25 hover:border-green-500/60 hover:shadow-[0_0_30px_rgba(0,255,65,0.15)] transition-all duration-300"
           >
             View Projects
           </a>
           <a
             href="#contact"
-            className="px-8 py-3 border border-gray-600 rounded-lg text-gray-300 hover:border-gray-400 transition-colors"
+            className="px-10 py-4 border border-gray-600 rounded-xl text-gray-300 text-lg hover:border-gray-400 hover:text-white hover:shadow-[0_0_30px_rgba(255,255,255,0.05)] transition-all duration-300"
           >
             Get in Touch
           </a>
