@@ -22,20 +22,29 @@ export function Hero() {
         <p className="text-2xl md:text-4xl text-gray-400 mb-16 font-light tracking-wide">
           Software Engineer
         </p>
-        <div className="flex flex-col sm:flex-row gap-8 justify-center items-center">
-          <a
-            href="#projects"
-            style={{ padding: "47px 111px" }}
-            className="text-center bg-green-500/15 border-2 border-green-500/40 rounded-2xl text-green-400 text-xl font-semibold hover:bg-green-500/25 hover:border-green-500/60 hover:shadow-[0_0_40px_rgba(0,255,65,0.2)] transition-all duration-300"
-          >
-            View Projects
-          </a>
+        <div className="flex flex-col items-center gap-6">
+          <div className="flex flex-col sm:flex-row gap-6 justify-center items-center">
+            <a
+              href="#projects"
+              style={{ padding: "47px 111px" }}
+              className="text-center bg-green-500/15 border-2 border-green-500/40 rounded-2xl text-green-400 text-xl font-semibold hover:bg-green-500/25 hover:border-green-500/60 hover:shadow-[0_0_40px_rgba(0,255,65,0.2)] transition-all duration-300"
+            >
+              View Projects
+            </a>
+            <a
+              href="#about"
+              style={{ padding: "47px 111px" }}
+              className="text-center bg-green-500/15 border-2 border-green-500/40 rounded-2xl text-green-400 text-xl font-semibold hover:bg-green-500/25 hover:border-green-500/60 hover:shadow-[0_0_40px_rgba(0,255,65,0.2)] transition-all duration-300"
+            >
+              About Me
+            </a>
+          </div>
           <a
             href="#contact"
             style={{ padding: "47px 111px" }}
             className="text-center border-2 border-gray-600 rounded-2xl text-gray-300 text-xl font-semibold hover:border-gray-400 hover:text-white hover:shadow-[0_0_40px_rgba(255,255,255,0.08)] transition-all duration-300"
           >
-            Get in Touch
+            Contact Me
           </a>
         </div>
       </div>
