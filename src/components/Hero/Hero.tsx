@@ -26,14 +26,14 @@ export function Hero() {
           <a
             href="#projects"
             style={{ padding: "47px 111px" }}
-            className="bg-green-500/15 border-2 border-green-500/40 rounded-2xl text-green-400 text-xl font-semibold hover:bg-green-500/25 hover:border-green-500/60 hover:shadow-[0_0_40px_rgba(0,255,65,0.2)] transition-all duration-300"
+            className="text-center bg-green-500/15 border-2 border-green-500/40 rounded-2xl text-green-400 text-xl font-semibold hover:bg-green-500/25 hover:border-green-500/60 hover:shadow-[0_0_40px_rgba(0,255,65,0.2)] transition-all duration-300"
           >
             View Projects
           </a>
           <a
             href="#contact"
             style={{ padding: "47px 111px" }}
-            className="border-2 border-gray-600 rounded-2xl text-gray-300 text-xl font-semibold hover:border-gray-400 hover:text-white hover:shadow-[0_0_40px_rgba(255,255,255,0.08)] transition-all duration-300"
+            className="text-center border-2 border-gray-600 rounded-2xl text-gray-300 text-xl font-semibold hover:border-gray-400 hover:text-white hover:shadow-[0_0_40px_rgba(255,255,255,0.08)] transition-all duration-300"
           >
             Get in Touch
           </a>

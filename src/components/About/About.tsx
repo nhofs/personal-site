@@ -35,7 +35,7 @@ export function About() {
                 <span
                   key={tech}
                   style={{ padding: "26px 42px" }}
-                  className="bg-green-500/10 border-2 border-green-500/30 rounded-full text-sm text-green-400 font-medium"
+                  className="text-center bg-green-500/10 border-2 border-green-500/30 rounded-full text-sm text-green-400 font-medium"
                 >
                   {tech}
                 </span>
