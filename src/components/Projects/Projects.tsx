@@ -73,7 +73,7 @@ export function Projects() {
   return (
     <section id="projects" className="section-container">
       <div className="max-w-6xl mx-auto w-full">
-        <h2 className="text-3xl md:text-4xl font-bold mb-12 text-center text-white">
+        <h2 className="text-3xl md:text-4xl font-bold mb-16 text-center text-white">
           Projects
         </h2>
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">

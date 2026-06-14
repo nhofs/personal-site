@@ -50,7 +50,7 @@ export function Contact() {
               id="name"
               name="name"
               required
-              className="w-full px-4 py-3 bg-gray-800 border border-gray-700 rounded-lg text-white focus:border-green-500 focus:outline-none transition-colors"
+              className="w-full pl-5 pr-4 py-3 bg-gray-800 border border-gray-700 rounded-lg text-white focus:border-green-500 focus:outline-none transition-colors"
               placeholder="Your name"
             />
           </div>
@@ -63,7 +63,7 @@ export function Contact() {
               id="email"
               name="email"
               required
-              className="w-full px-4 py-3 bg-gray-800 border border-gray-700 rounded-lg text-white focus:border-green-500 focus:outline-none transition-colors"
+              className="w-full pl-5 pr-4 py-3 bg-gray-800 border border-gray-700 rounded-lg text-white focus:border-green-500 focus:outline-none transition-colors"
               placeholder="your@email.com"
             />
           </div>
@@ -76,7 +76,7 @@ export function Contact() {
               name="message"
               rows={5}
               required
-              className="w-full px-4 py-3 bg-gray-800 border border-gray-700 rounded-lg text-white focus:border-green-500 focus:outline-none transition-colors resize-none"
+              className="w-full pl-5 pr-4 py-3 bg-gray-800 border border-gray-700 rounded-lg text-white focus:border-green-500 focus:outline-none transition-colors resize-none"
               placeholder="Your message..."
             />
           </div>
