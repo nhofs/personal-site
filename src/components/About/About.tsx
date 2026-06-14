@@ -34,7 +34,8 @@ export function About() {
               ].map((tech) => (
                 <span
                   key={tech}
-                  className="px-8 py-4 bg-green-500/10 border-2 border-green-500/30 rounded-full text-sm text-green-400 font-medium"
+                  style={{ padding: "20px 48px" }}
+                  className="bg-green-500/10 border-2 border-green-500/30 rounded-full text-sm text-green-400 font-medium"
                 >
                   {tech}
                 </span>
