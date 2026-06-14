@@ -41,7 +41,7 @@ export function Hero() {
           </div>
           <a
             href="#contact"
-            style={{ padding: "47px 111px" }}
+            style={{ padding: "28px 56px" }}
             className="text-center border-2 border-gray-600 rounded-2xl text-gray-300 text-xl font-semibold hover:border-gray-400 hover:text-white hover:shadow-[0_0_40px_rgba(255,255,255,0.08)] transition-all duration-300"
           >
             Contact Me
