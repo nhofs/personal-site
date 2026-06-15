@@ -8,7 +8,7 @@ export function About() {
               <img
                 src="./profile.jpg"
                 alt="Nolan Hofstee"
-                className="w-48 h-48 rounded-2xl object-cover border-2 border-green-500/30 mx-auto"
+                className="w-48 h-48 rounded-2xl object-cover object-[center_30%] border-2 border-green-500/30 mx-auto"
               />
               <div className="space-y-4">
                 <p className="text-gray-300 leading-relaxed">
