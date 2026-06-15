@@ -3,27 +3,25 @@ export function About() {
     <section id="about" className="section-container bg-gray-900/50">
       <div className="max-w-4xl mx-auto text-center">
         <div className="grid md:grid-cols-2 gap-8 text-left">
-          <div className="flex items-center">
-            <div className="space-y-6">
-              <img
-                src="./profile.jpg"
-                alt="Nolan Hofstee"
-                className="w-48 h-48 rounded-2xl object-cover object-[center_30%] border-2 border-green-500/30 mx-auto"
-              />
-              <div className="space-y-4">
-                <p className="text-gray-300 leading-relaxed">
-                  Software engineer who found his calling in code after a year of med school.
-                  Started as a support agent at DoorLoop, earned a promotion to QA Engineer
-                  within a year, and now building software full-time while waiting on my
-                  next promotion to Software Engineer.
-                </p>
-                <p className="text-gray-300 leading-relaxed">
-                  Outside of work, I'm self-hosting side apps for my family, experimenting
-                  with AI models on a Linux server, and building small games in Godot.
-                  When I'm not at a keyboard, you'll find me rock climbing, hiking 20-mile
-                  trails, or gaming. I'm a firm believer in clever solutions over bought ones.
-                </p>
-              </div>
+          <div className="flex flex-col items-center gap-6">
+            <img
+              src="./profile.jpg"
+              alt="Nolan Hofstee"
+              className="w-48 h-56 rounded-2xl object-cover object-[center_65%] border-2 border-green-500/30"
+            />
+            <div className="space-y-4 text-left w-full">
+              <p className="text-gray-300 leading-relaxed">
+                Software engineer who found his calling in code after a year of med school.
+                Started as a support agent at DoorLoop, earned a promotion to QA Engineer
+                within a year, and now building software full-time while waiting on my
+                next promotion to Software Engineer.
+              </p>
+              <p className="text-gray-300 leading-relaxed">
+                Outside of work, I'm self-hosting side apps for my family, experimenting
+                with AI models on a Linux server, and building small games in Godot.
+                When I'm not at a keyboard, you'll find me rock climbing, hiking 20-mile
+                trails, or gaming. I'm a firm believer in clever solutions over bought ones.
+              </p>
             </div>
           </div>
           <div className="space-y-4">
